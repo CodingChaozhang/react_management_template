@@ -61,6 +61,10 @@ const menuList = [
         title:"用户中心",
         key:"/admin/user_info"
     },
+    {
+        title:"成员管理",
+        key:"/admin/manage_user"
+    }
 ];
 
 export default menuList;

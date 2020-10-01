@@ -5,6 +5,7 @@ import Admin from './Admin';
 import Home from './pages/home';
 import NotMatch from './pages/NotMatch';
 import Login from './pages/login';
+import User from './pages/user';
 
 class IRouter extends React.Component {
     constructor(props) {
@@ -25,6 +26,9 @@ class IRouter extends React.Component {
                             <Switch>
                                 <Route path="/admin/home">
                                     <Home/>
+                                </Route>
+                                <Route path="/admin/manage_user">
+                                    <User/>
                                 </Route>
                                 <Route >
                                     <NotMatch/>
