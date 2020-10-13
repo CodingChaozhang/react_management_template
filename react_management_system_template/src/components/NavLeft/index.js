@@ -42,7 +42,7 @@ class index extends React.Component {
 
     render() {
         return (
-            <div>
+            <div className="navleft">
                 <div className="logo">
                     <img src="/assets/logo-ant.svg" alt=""/>
                     <h1>博客后台管理系统</h1>   

@@ -64,6 +64,32 @@ const menuList = [
     {
         title:"成员管理",
         key:"/admin/manage_user"
+    },
+    {
+        title:"图表管理",
+        key:"/admin/manage_echarts",
+        children:[
+            {
+                title:"柱形图",
+                key:"/admin/manage_echarts/bar"
+            },
+            {
+                title:"饼图",
+                key:"/admin/manage_echarts/pie"
+            },
+            {
+                title:"折线图",
+                key:"/admin/manage_echarts/line"
+            }
+        ]
+    },
+    {
+        title:"富文本编辑器",
+        key:"/admin/rich"
+    },
+    {
+        title:'权限设置',
+        key:"/admin/permission"
     }
 ];
 

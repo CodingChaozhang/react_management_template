@@ -6,6 +6,11 @@ import Home from './pages/home';
 import NotMatch from './pages/NotMatch';
 import Login from './pages/login';
 import User from './pages/user';
+import Bar from './pages/echarts/bar';
+import Pie from './pages/echarts/pie';
+import Line from './pages/echarts/line';
+import Rich from './pages/rich';
+import Permission from './pages/permission';
 
 class IRouter extends React.Component {
     constructor(props) {
@@ -30,6 +35,27 @@ class IRouter extends React.Component {
                                 <Route path="/admin/manage_user">
                                     <User/>
                                 </Route>
+
+
+                                <Route path="/admin/manage_echarts/bar">
+                                    <Bar/>
+                                </Route>
+                                <Route path="/admin/manage_echarts/pie">
+                                    <Pie/>
+                                </Route>
+                                <Route path="/admin/manage_echarts/line">
+                                    <Line/>
+                                </Route>
+
+                                <Route path="/admin/rich">
+                                    <Rich/>
+                                </Route>
+
+                                <Route path="/admin/permission">
+                                    <Permission/>
+                                </Route>
+                                
+
                                 <Route >
                                     <NotMatch/>
                                 </Route>
